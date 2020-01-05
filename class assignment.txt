@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>  class assignment</title>
+
+
+<script>
+
+	var name = prompt("what is your name?", " Allen");
+	var nationality = prompt("what is your nationality?", "Indian");
+
+
+
+	alert ( "my name is " + name + " and my nationality is " + nationality + " and I have completed the assignment ");
+</script>
+</head>
+
+

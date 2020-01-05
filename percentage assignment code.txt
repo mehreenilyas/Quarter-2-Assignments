@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Percentage assignment</title>
+
+<body>
+	<style type="text/css">
+		
+
+	</style>
+
+
+
+	
+
+<script>
+	var a = prompt ("Enter your English marks");
+	var b = prompt ("Enter your Urdu marks");
+	var c = prompt ("Enter your Maths marks");
+	var d = prompt ("Enter your Science marks");
+	var e = prompt("Enter your computers marks");
+
+	var english = parseInt(a);
+	var urdu = parseInt(b);
+	var maths = parseInt(c);
+	var science = parseInt(d);
+	var computers = parseInt(e);
+
+
+	var total = english+urdu+maths+science+computers
+
+	 alert("The Total Marks = " + total);
+
+     var percentage = total/500*100
+	
+	alert("Congratulations!! you scored " + percentage + "%");
+
+
+	if (percentage>=80 && percentage<100) {
+
+		alert ( "Your percentage is = " +percentage+ " and your Grade is A")
+	}
+
+	if (percentage>=70 && percentage<80) {
+
+		alert ( "Your percentage is = " +percentage+ " and your Grade is B")
+	}
+
+	if (percentage>=60 && percentage<70) {
+
+		alert ( "Your percentage is = " +percentage+ " and your Grade is C")
+	}
+if (percentage<60) {
+
+		alert ( "Your percentage is = " +percentage+ " and your Grade is U")
+	}
+
+
+
+
+
+
+	
+</script>
+</body>
+	
+</head>
+</html>
